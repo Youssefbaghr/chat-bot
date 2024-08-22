@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 def connect_to_mongodb():
-    # Load variables from .env file
+    # Load variables from .env file .
     load_dotenv()
 
     # Retrieve variables from the environment
