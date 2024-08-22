@@ -14,6 +14,11 @@ def bot_conversation():
         continue_conversation = handle_user_input(user_input, conversation_history)
         if not continue_conversation:
             break
+        print("Bot:", end=' ')
+        # Add your bot's response here
+        # For example:
+        # response = "I'm happy to help you with that."
+        # print(response)
 
 # Main execution
 if __name__ == "__main__":
